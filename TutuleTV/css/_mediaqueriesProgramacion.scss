@@ -1,0 +1,87 @@
+@media screen and (max-width:900px){
+    body{
+        font-size: .9rem;
+        .contenedor{
+            .box-main{
+                padding: 15px 0;
+                margin-top: 30px;
+                .main{
+                    padding: 0;
+                    .imagen-horarios{
+                        width: 100%;
+                        img{
+                            width: 100%;
+                        }
+                    }
+                    .programacion{
+                        border-radius: 0;
+                        .contenedor-programa{
+                            width: 100%;
+                            .programa{
+                                width: 48%;
+                                margin: 5px;
+                            }
+                        }
+                    }
+                    .ad{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:650px){
+    body{
+        .contenedor{
+            .box-main{
+                .main{
+                    h1{
+                        font-size: 1.5rem;
+                    }
+                    .programacion{
+                        h2{
+                            font-size: 1.5rem;
+                        }
+                        .contenedor-programa{
+                            flex-wrap: wrap;
+                            padding: 20px;
+                            .programa{
+                                // width: 100%;
+                                .contenedor-imagen{
+                                    // width: 100%;
+                                    margin: 0;
+                                    img{
+                                        width: 100%;
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:568px){
+    body{
+        .contenedor{
+            .box-main{
+                .main{
+                    .programacion{
+                        .contenedor-programa{
+                            .programa{
+                                width: 100%;
+                                .contenedor-imagen{
+                                    width: 100%;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

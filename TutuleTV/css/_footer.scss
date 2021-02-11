@@ -1,0 +1,21 @@
+.footer{
+    color: #00171F;
+    background: #fff;
+    font-size: 1rem;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 300;
+    line-height: 1rem;
+    span{
+        padding: 0 10px;
+        .whatsapp{
+            text-decoration: none;
+            color: #25d366;
+            margin-left: 10px;
+            font-size: 1.2rem;
+        }
+    }
+}

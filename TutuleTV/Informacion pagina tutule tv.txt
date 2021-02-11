@@ -1,0 +1,48 @@
+---- HEADER ----
+    >Solicita tu anuncio publicitario
+    >Sintilla - Campo publicitario de texto
+    >Redes Sociales
+        FACEBOOK
+        INSTAGRAM
+        WHATSAPP
+---- Menu de Navegacion ----
+    INICIO
+    NOTICIAS
+    PROGRAMACION
+    GALERIA
+    CONTACTO
+    >AD
+---- Footer ----
+    DERECHOS DE AUTOR
+    PROMOCION DE CREADOR
+
+--=== / INICIO \ ===--
+---- Main ----
+    IMAGEN O VIDEO CANAL - PUBLICIDAD
+    TITULO REFERENCIA DE IMAGEN
+    MINI GALERIA, VISTA PREVIA DE GALERIA
+    >AD
+
+--=== / NOTICIAS \ ===--
+---- Main ----
+    GRID =  "AD_1   IMAGEN_EVENTO_1     CONTENIDO_TEXTO_1"
+            "AD_1   IMAGEN_EVENTO_2     CONTENIDO_TEXTO_2"
+            "AD_1   IMAGEN_EVENTO_3     CONTENIDO_TEXTO_3"
+            "AD_2   AD_2                AD_2             "
+
+--=== / PROGRAMACION \ ===--
+---- Main ----
+    IMAGEN DE HORARIOS DE PROGRAMACION
+    VIDEOS DE PRESENTACION DE PROGRAMA
+    MINI TABLA MOSTRANDO DESCRIPCION CON IMAGEN REPRESENTATIVA DE LA PROGRAMACION
+
+--=== / GALERIA \ ===--
+---- Main ----
+    GALERIA DE VARIAS FOTOS
+    AD
+
+--=== / CONTACTO \ ===--
+---- Main ----
+    >Contacto de anuncio publicitario o alguna duda
+    SPAM REDES SOCIALES
+    FORMULARIO DE CONTACTO POR CORREO

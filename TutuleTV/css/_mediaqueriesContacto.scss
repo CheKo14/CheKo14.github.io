@@ -1,0 +1,77 @@
+@media screen and (max-width:900px){
+    body{
+        font-size: .9rem;
+        .contenedor{
+            .box-main{
+                padding: 15px 0;
+                margin-top: 30px;
+                .main{
+                    padding: 10px;
+                    .contenedor-contactos{
+                        width: 100%;
+                    }
+                    .redes-sociales{
+                        width: 100%;
+                    }
+                    .publicidad-fotos{
+                        width: 100%;
+                    }
+                    .formulario-contacto{
+                        width: 100%;
+                    }
+                    .ad{
+                        width: 100%;
+                        margin: 0;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:650px){
+    body{
+        .box-main{
+            .main{
+                margin-top: 30px;
+                .contenedor-contactos{
+                    padding: 20px 10px;
+                    h2{
+                        font-size: 1.5rem;
+                    }
+                    .contacto-texto{
+                        font-size: 1.1rem;
+                    }
+                }
+                .redes-sociales{
+                    font-size: 1.1rem;
+                    a{
+                        font-size: 1.1rem;
+                        display: inline-block;
+                        margin-bottom: 10px;
+                    }
+                }
+                .publicidad-fotos{
+                    padding: 20px 10px;
+                    i{
+                        width: 100%;
+                    }
+                    p{
+                        font-size: 1.1rem;
+                        width: 100%;
+                    }
+                }
+                .formulario-contacto{
+                    font-size: 1.1rem;
+                    h3{
+                        font-size: 1.5rem;
+                    }
+                    form{
+                        width: 100%;
+                        padding: 0;
+                    }
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,33 @@
+.header{
+    width: 100%;
+    right: 0%;
+    background: #00171F;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: nowrap;
+    text-align: left;
+    font-weight: 300;
+    .btn-menu{
+        font-size: 1.5rem;
+        border: none;
+        background: none;
+        color: #fff;
+        margin-left: 5px;
+        visibility: hidden;
+        cursor: pointer;
+        transition: .3s ease color;
+        &:hover{
+            color: rgba(#fff,.8);
+        }
+    }
+    .text-publicidad{
+        padding: 10px;
+    }
+    .text-hora{
+        padding: 10px;
+        background: #FFF;
+        color: #00171F;
+    }
+}

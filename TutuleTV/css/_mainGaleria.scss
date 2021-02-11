@@ -1,0 +1,56 @@
+.box-main{
+    background: #003459;
+    width: 100%;
+    padding: 20px 20px 0 20px;
+    .main{
+        background: #f2f2f2;
+        border-radius: 10px;
+        padding: 10px;
+        .container{
+            width: 100%;
+            margin: 0;
+            .row{
+                div{
+                    .titulo{
+                        font-size: 2rem;
+                        color: #007EA7;
+                    }
+                }
+            }
+            .galeria{
+                .col{
+                    margin-bottom: 30px;
+                }
+                img{
+                    border: 6px solid #fff;
+                    box-shadow: 0 8px 10px -4px rgba(#000,.6);
+                }
+            }
+        }
+    }
+    .ad{
+        width: 90%;
+        max-width: 920px;
+        height: 150px;
+        color: rgba(#fff,.1);
+        border: 2px solid rgba(#fff,.1);
+        margin: 20px auto;
+        padding: auto;
+        font-size: 2.5rem;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+
+.materialbox-caption{
+    bottom: 30px;
+    right: 0;
+    height: auto;
+    padding: 10px;
+    margin: auto;
+    background: rgba(#000,.5);
+    font-size: 1.1rem;
+    line-height: 2rem;
+}

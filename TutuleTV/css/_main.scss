@@ -1,0 +1,137 @@
+.box-main{
+    width: 100%;
+    background: #003459;
+    .main{
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        .titulo{
+            display: inline-block;
+            font-size: 2rem;
+            color: #fff;
+            position: relative;
+            padding: 10px 40px;
+            background: #007EA7;
+            margin-top: 10px;
+            margin-bottom: -30px;
+            border: 1px solid #fff;
+        }
+        .box-media{
+            width: 100%;
+            text-align: center;
+            img{
+                width: 90%;
+                height: 480px;
+                margin: auto;
+                vertical-align: top;
+                box-shadow: 2px 2px 10px;
+                border: 2px solid #fff;
+            }
+        }
+        .contenedor-slide{
+            background: rgba(#f2f2f2,.9);
+            padding: 10px;
+            margin: 30px 20px;
+            border-radius: 5px;
+            h2{
+                padding: 10px;
+                font-weight: 300;
+                margin: 0;
+                color: #007EA7;
+                font-size: 2rem;
+                text-decoration: underline;
+            }
+            .box-slideshow{
+                text-align: center;
+                width: 100%;
+                max-width: 1000px;
+                position: relative;
+                margin: auto;
+                .fade{
+                    animation-name: fade;
+                    animation-duration: 1.5s;
+                }
+                .slideshow{
+                    display: none;
+                    .numero-slide{
+                        position: relative;
+                        color: #fff;
+                        font-size: .8rem;
+                        padding: 8px 12px;
+                        text-align: left;
+                        margin-top: 5px;
+                        line-height: .8rem;
+                        z-index: 1;
+                    }
+                    img{
+                        width: 100%;
+                        vertical-align: top;
+                    }
+                    .text{
+                        color: #fff;
+                        background: #003459;
+                        font-size: 1rem;
+                        margin: 0;
+                        padding: 9px 12px;
+                        position: absolute;
+                        bottom: -10;
+                        width: 100%;
+                    }
+                }
+                .prev, .next{
+                    cursor: pointer;
+                    position: absolute;
+                    top: 60%;
+                    width: auto;
+                    margin-top: -22px;
+                    color: #fff;
+                    padding: 16px;
+                    font-size: 1rem;
+                    transition: .6s ease;
+                    border-radius: 0 3px 3px 0;
+                    user-select: none;
+                    &:hover{
+                        background-color: rgba(#000,.8);
+                    }
+                }
+                .next{
+                    right: 0;
+                    border-radius: 3px 0 0 3px;
+                }
+                .prev{
+                    left: 0;
+                }
+            }
+            div{
+                text-align: center;
+                .dot{
+                    cursor: pointer;
+                    height: 15px;
+                    width: 15px;
+                    margin: 0 2px;
+                    background-color: #bbb;
+                    border-radius: 50%;
+                    display: inline-block;
+                    transition: background-color .6s ease;
+                }
+                .active, .dot:hover{
+                    background-color: #717171;
+                }
+            }
+        }
+        .ad{
+            width: 90%;
+            max-width: 920px;
+            height: 150px;
+            color: rgba(#fff,.1);
+            border: 2px solid rgba(#fff,.1);
+            margin: 0 auto 30px auto;
+            padding: auto;
+            font-size: 2.5rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

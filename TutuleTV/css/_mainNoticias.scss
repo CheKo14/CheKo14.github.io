@@ -1,0 +1,84 @@
+.box-main{
+    width: 100%;
+    background: #003459;
+    .main{
+        display: grid;
+        grid-template-columns: repeat(2, 1fr) 200px;
+        grid-template-rows: repeat(3, auto);
+        grid-template-areas:"noticia1   noticia1    ad1"
+                            "noticia1   noticia1    ad1"
+                            "ad2        ad2         ad2";
+        .ad1{
+            grid-area: ad1;
+            width: 180px;
+            height: 480px;
+            color: rgba(#fff,.1);
+            border: 2px solid rgba(#fff,.1);
+            margin: 40px auto;
+            font-size: 2.5rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .contenedor-noticias{
+            grid-area: noticia1;
+            padding: 20px;
+            margin: 40px 5px 0 20px;
+            border-radius: 10px;
+            background: #f2f2f2;
+            h1{
+                font-size: 1.6rem;
+                color: #007EA7;
+            }
+            .container{
+                .contenedor-articulo{
+                    margin: 20px auto;
+                    width: 100%;
+                    font-size: 1rem;
+                    line-height: 1.3rem;
+                    display: flex;
+                    justify-content: space-between;
+                    align-items: center;
+                    .contenedor-imagen{
+                        width: 30%;
+                        margin: 10px 15px 10px 0;
+                        img{
+                            width: 100%;
+                            vertical-align: top;
+                        }
+                    }
+                    .texto{
+                        width: 70%;
+                        h3{
+                            color: #003459;
+                            margin-bottom: 20px;
+                        }
+                        p{
+                            text-align: justify;
+                        }
+                    }
+                }
+            }
+            hr{
+                margin-top: 20px;
+                border: 1px solid rgba(#000,.3);
+            }
+        }
+        .ad2{
+            grid-area: ad2;
+            width: 90%;
+            max-width: 920px;
+            height: 150px;
+            color: rgba(#fff,.1);
+            border: 2px solid rgba(#fff,.1);
+            margin: 20px auto;
+            padding: auto;
+            font-size: 2.5rem;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

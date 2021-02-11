@@ -1,0 +1,96 @@
+.box-main{
+    background: #003459;
+    width: 100%;
+    .main{
+        padding: 0 20px 0 20px;
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        h1{
+            font-size: 2rem;
+            display: inline-block;
+            color: #003459;
+            text-align: center;
+            padding: 10px 20px;
+            background: #fff;
+            border-radius: 5px;
+        }
+        .imagen-horarios{
+            width: 90%;
+            margin: 0 auto 20px auto;
+            img{
+                width: 100%;
+                box-shadow: 0 0 10px;
+            }
+        }
+        .video-presentacion{
+            width: 100%;
+            height: 480px;
+            img{
+                width: 100%;
+                height: 480px;
+            }
+        }
+        .programacion{
+            width: 100%;
+            background: #f2f2f2;
+            padding: 10px;
+            border-radius: 10px;
+            margin: 30px auto;
+            h2{
+                font-size: 2rem;
+                color: #003459;
+                text-align: center;
+                padding: 10px 20px;
+                border-radius: 5px;
+                margin: 0;
+                margin-bottom: 10px;
+            }
+            .contenedor-programa{
+                display: flex;
+                justify-content: center;
+                flex-wrap: wrap;
+                .programa{
+                    width: 22%;
+                    margin: 0 10px 20px 10px;
+                    position: relative;
+                    text-align: center;
+                    .contenedor-imagen{
+                        background: #000;
+                        border-radius: 15px 0 0 0;
+                        img{
+                            border-radius: 15px 0 0 0;
+                            width: 100%;
+                            // height: 250px;
+                            vertical-align: top;
+                        }
+                    }
+                    .nombre{
+                        text-align: center;
+                        font-size: .8em;
+                        font-weight: 300;
+                        color: #fff;
+                        background: rgba(#000,.6);
+                        margin: 0 auto;
+                        padding: 5px;
+                        border-radius: 0 0 15px 0;
+                    }
+                }
+            }
+        }
+        .ad{
+            width: 90%;
+            max-width: 920px;
+            height: 150px;
+            color: rgba(#fff,.1);
+            border: 2px solid rgba(#fff,.1);
+            margin: 0 auto 30px auto;
+            padding: auto;
+            font-size: 2.5em;
+            cursor: pointer;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    }
+}

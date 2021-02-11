@@ -1,0 +1,87 @@
+@media screen and (max-width:900px){
+    body{
+        font-size: .9rem;
+        .contenedor{
+            .box-main{
+                padding: 15px 0;
+                margin-top: 30px;
+                .main{
+                    grid-template-areas:"ad1        ad1         ad1"
+                                        "noticia1   noticia1    noticia1"
+                                        "ad2        ad2         ad2";
+                    .ad1{
+                        height: 150px;
+                        width: 100%;
+                        margin: 20px 0;
+                    }
+                    .contenedor-noticias{
+                        width: 100%;
+                        margin: 20px 0;
+                        border-radius: 0;
+                    }
+                    .ad2{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:650px){
+    body{
+        .box-main{
+            .main{
+                margin-top: 10px;
+                .contenedor-noticias{
+                    h1{
+                        font-size: 1.5rem;
+                    }
+                    .container{
+                        .contenedor-articulo{
+                            flex-wrap: nowrap;
+                            .contenedor-imagen{
+                                margin: 0;
+                                max-width: 200px;
+                                width: 100%;
+                                img{
+                                    width: 100%;
+                                }
+                            }
+                            .texto{
+                                width: 100%;
+                                padding: 20px;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media screen and (max-width:530px){
+    body{
+        .box-main{
+            .main{
+                .contenedor-noticias{
+                    .container{
+                        .contenedor-articulo{
+                            flex-wrap: wrap;
+                            .contenedor-imagen{
+                                margin: auto;
+                                width: 100%;
+                                img{
+                                    width: 100%;
+                                }
+                            }
+                            .texto{
+                                padding: 0;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
