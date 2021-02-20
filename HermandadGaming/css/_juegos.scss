@@ -1,0 +1,44 @@
+.main{
+    .juegos{
+        background: #414141;
+        padding: 40px 0;
+        h3{
+            font-size: 3rem;
+            color: #fff;
+            text-align: center;
+            margin: 0;
+        }
+        p{
+            font-size: 1.5rem;
+            color: #fff;
+            font-weight: 100;
+            text-align: center;
+        }
+        .galeria{
+            width: 100%;
+            overflow: hidden;
+            .juego{
+                float: left;
+                width: 50%;
+                opacity: .7;
+                &:hover{
+                    transition: all .3s ease;
+                    opacity: 1;
+                }
+                .imagen{
+                    width: 100%;
+                    img{
+                        width: 100%;
+                        vertical-align: top;
+                    }
+                }
+                p{
+                    background: #000;
+                    margin: 0;
+                    padding: 10px;
+                    font-weight: 500;
+                }
+            }
+        }
+    }
+}
